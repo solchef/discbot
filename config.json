@@ -1,0 +1,20 @@
+{
+    "token":"MTE5Nzk1Njg3NTA0NDUyMDE0Nw.GS-gEj.ixB7BpC515d2BB5vnLu3rqbirGsJw9UBZGWJqo",
+	"clientId": "1197956875044520147",
+    "appId":"1197956875044520147",
+	"guildId": "1197965505898754088",
+    "clientSecret":"U1tWiYwpqKVmrz01S_QReyl2a9YZosS0",
+    "access_token": "an access token",
+	"token_type": "Bearer",
+	"expires_in": 604800,
+	"refresh_token": "a refresh token",
+	"scope": "identify",
+    "port":3000,
+    "redirect:": "http://localhost:3000/discord/callback"
+}
+
+
+
+
+
+
