@@ -1,0 +1,6 @@
+{
+    "chatgpt.promptPrefix.customPrompt2-enabled": true,
+    "chatgpt.gpt3.apiKey": "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",
+    "chatgpt.response.showNotification": true,
+    "chatgpt.promptPrefix.customPrompt1-enabled": true
+}

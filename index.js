@@ -15,6 +15,8 @@ const client = new discord.Client({
   intents: [],
 });
 
+
+console.log('disc')
 client.login(process.env.PASS);
 
 // Express endpoint to handle webhook
