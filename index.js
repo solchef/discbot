@@ -45,6 +45,11 @@ app.post("/webhook", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+
+  res.status(200).json({message:"success just health check"});
+});
+
 // Moralis setup
 Moralis.start({
   apiKey: process.env.APIKEY,
