@@ -6,7 +6,7 @@ const discord = require("discord.js");
 require("dotenv").config();
 
 const app = express();
-const port = 3000;
+const port = 3004;
 
 app.use(express.json());
 
@@ -16,8 +16,8 @@ const client = new discord.Client({
 });
 
 
-console.log('disc')
-client.login(process.env.PASS);
+// console.log('disc')
+// client.login(process.env.PASS);
 
 // Express endpoint to handle webhook
 app.post("/webhook", async (req, res) => {
@@ -35,7 +35,7 @@ app.post("/webhook", async (req, res) => {
     let amount = Number(body.txs[0].value / 1E18);
 
     // Fetch Discord channel and send notification
-    const channel = await client.channels.fetch(process.env.CHANNEL);
+    // const channel = await client.channels.fetch(process.env.CHANNEL);
     channel.send(`New Donation submitted by ${from}, for ${amount.toFixed(2)} MATIC!!!!`);
 
     return res.status(200).json();
